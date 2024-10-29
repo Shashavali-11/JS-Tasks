@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task - 7</title>
+</head>
+<body>
+    <script>
+        // 1) Question ?
+        // Print to check a number if it is Even or Odd ?
+        var ip =+prompt("Enter a number to check Even or Odd : ")
+        if(ip%2 == 0){
+            alert(`${ip} is an Even Number.`)
+        }else{
+            alert(`${ip} is an Odd Number`)
+        }
+
+        // 2) Question ?
+        // Write a JavaScript program that promts the user to enter two numbers and alerts
+        // Compare two numbers ?
+        var  ip1 =+ prompt("Enter a 1st number : ")
+        var  ip2 =+ prompt("Enter a 2nd number : ")
+        if(ip1 > ip2){
+            alert(`${ip1} is greater than ${ip2}`)
+        }else if(ip1 == ip2){
+            alert(`${ip1} is equals to ${ip2}`)
+        }else{
+            alert(`${ip1} is less than ${ip2}`)
+        }
+
+        //  3) Question ?
+        // Write a JavaScript program that prompts the user to enter their age and whether they have a valid driver's license (true or false). The program should alert "Can drive" if the person is 18 or older and has a valid driver's license, otherwise it should alert "Cannot drive".
+        var age =+ prompt("Enter your age : ")
+        // var ip4 =+ prompt("Do you have a valid driver's license(true/false) : ")
+
+        // var age = 17
+        var lic = true
+        if(age >= 18){
+            if(lic == true){
+                if(age >= 60){
+                    alert(`You Cannot Drive`)
+                }
+                alert(`You Can Drive`)
+            }
+        }else{
+            alert(`You Cannot Drive`)
+        }
+
+        //  4) Question ?
+        // Write a JavaScript program that prompts the user to enter a number and alerts "Positive" if the number is greater than 0, 
+        // "Negative" if the number is less than 0, or "Zero" if the number is 0.
+        // Determine if a Number is Positive, Negative or Zero
+
+        var ip5 =+ prompt("Enter a number : ")
+        if(ip5 > 0){
+            alert(`Positive`)
+        }else if(ip5 < 0){
+            alert(`Negative`)
+        }else{
+            alert(`Zero`)
+        }
+
+
+
+        
+
+
+
+
+
+    </script>
+</body>
+</html>
