@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Card</title>
+</head>
+<body>
+    <center>
+    <div id="parent">
+        <div id="m1" ></div>
+        <hr>
+        <div>
+            <img id="m2"> 
+        </div>
+        <div>
+            <p id="m34" ></p>
+            <p id="m31" ></p>
+            <p id="m32" ></p>
+            <p id="m33" ></p>
+
+        </div>
+        <hr>
+        <div>
+            <p>KPHB Colony, Hyd</p>
+        </div>
+
+    </div>
+</center>
+
+<script>
+
+    let p = document.getElementById("parent");
+    p.style.border = "2px solid ";
+    p.style.borderRadius = "30px";
+    p.style.backgroundColor = "lightgrey";
+    p.style.height="100%";
+    p.style.width = "20%";
+
+
+    var ti = document.getElementById("m1");
+    ti.innerHTML = "<b>Employee ID</b>"
+    ti.style.marginTop = "10px"
+
+
+    var img = document.getElementById("m2");
+    img.setAttribute("src", "../photo.jpg" )
+    img.setAttribute("height", "130px");
+    img.setAttribute("width", "130px");
+
+    img.style.marginTop = "20px"
+    img.style.borderRadius = "500%";
+    img.border = "2px solid white"
+
+    let e = document.getElementById("m34")
+    e.innerHTML = "<b>Company</b> : 10000 Coders"
+    // e.style.color = "White"
+
+    let b = document.getElementById("m31")
+    b.innerHTML = "<b>Name </b>: SHASHAVALI SHAIK"
+    // b.style.color = "White"
+    
+    let c = document.getElementById("m32")
+    c.innerHTML = "<b>Role</b> : SQL Developer"
+    // c.style.color = "White"
+
+
+    let d = document.getElementById("m33")
+    d.innerHTML = "<b>ID</b> : 4533"
+    // d.style.color = "White"
+
+
+    
+
+
+
+    
+    
+    
+</script>
+    
+    
+</body>
+
+</html>
